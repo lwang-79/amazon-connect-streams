@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 (function () {
-   var global = this || globalThis;
+   var global = this || globalThis || window;
    var connect = global.connect || {};
    global.connect = connect;
    global.lily = connect;

@@ -25,7 +25,7 @@
  * Chrome Implementation of RSA API can be found here - https://github.com/cfredric/chrome-storage-access-api
  */
 (function () {
-  const global = this || globalThis;
+  const global = this || globalThis || window;
   const connect = global.connect || {};
   global.connect = connect;
   global.lily = connect;

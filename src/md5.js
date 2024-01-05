@@ -22,7 +22,7 @@
 /* eslint-disable strict */
 
 ;(function ($) {
-	var ctx = this || globalThis;
+	var ctx = this || globalThis || window;
 
   /**
    * Add integers, wrapping at 2^32.
